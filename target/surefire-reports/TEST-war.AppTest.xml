@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="war.AppTest" time="0.037" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="war.AppTest" time="0.049" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/opt/sas/target/test-classes:/opt/sas/target/classes:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="java.class.path" value="/opt/mart/wall/target/test-classes:/opt/mart/wall/target/classes:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
@@ -14,9 +14,9 @@
     <property name="os.name" value="Linux"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/opt/amazon-corretto-11.0.26.4.1-linux-x64/lib"/>
-    <property name="sun.java.command" value="/opt/sas/target/surefire/surefirebooter-20250219105427870_3.jar /opt/sas/target/surefire 2025-02-19T10-54-27_605-jvmRun1 surefire-20250219105427870_1tmp surefire_0-20250219105427870_2tmp"/>
+    <property name="sun.java.command" value="/opt/mart/wall/target/surefire/surefirebooter-20250224085647356_3.jar /opt/mart/wall/target/surefire 2025-02-24T08-56-47_187-jvmRun1 surefire-20250224085647356_1tmp surefire_0-20250224085647356_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/opt/sas/target/test-classes:/opt/sas/target/classes:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="surefire.test.class.path" value="/opt/mart/wall/target/test-classes:/opt/mart/wall/target/classes:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/root"/>
     <property name="user.language" value="en"/>
@@ -24,13 +24,13 @@
     <property name="java.version.date" value="2025-01-21"/>
     <property name="java.home" value="/opt/amazon-corretto-11.0.26.4.1-linux-x64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/opt/sas"/>
+    <property name="basedir" value="/opt/mart/wall"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/opt/sas/target/surefire/surefirebooter-20250219105427870_3.jar"/>
+    <property name="surefire.real.class.path" value="/opt/mart/wall/target/surefire/surefirebooter-20250224085647356_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.26+4-LTS"/>
     <property name="user.name" value="root"/>
@@ -44,7 +44,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="11.0.26"/>
-    <property name="user.dir" value="/opt/sas"/>
+    <property name="user.dir" value="/opt/mart/wall"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -57,5 +57,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testApp" classname="war.AppTest" time="0.003"/>
+  <testcase name="testApp" classname="war.AppTest" time="0.004"/>
 </testsuite>
